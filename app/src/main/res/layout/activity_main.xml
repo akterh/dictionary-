@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/_3973718">
+    <EditText
+        android:id="@+id/edt_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edt_txt"
+        android:importantForAutofill="no"
+        android:background="@drawable/edit_text_back"
+        android:layout_marginLeft="@dimen/edt_margin"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_marginRight="@dimen/edt_margin"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:padding="@dimen/padding"
+        android:textColor="@color/black"
+        android:drawablePadding="@dimen/padding_search"
+        android:textStyle="bold"
+        android:inputType="text"
+
+        />
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/btn_text"
+        android:backgroundTint="@color/edit_back"
+        android:layout_marginRight="@dimen/edt_margin"
+        android:layout_marginLeft="@dimen/edt_margin"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:padding="@dimen/padding"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DictionaryApp</string>
+    <string name="edt_txt">Search your Word</string>
+    <string name="btn_text">Search Here</string>
+</resources>
